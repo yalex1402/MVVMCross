@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Factorial.Android</string>
+    <string name="app_name">Factorial</string>
     <string name="action_settings">Settings</string>
 </resources>
