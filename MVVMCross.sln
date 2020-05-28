@@ -11,9 +11,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalculator.Android", "Ti
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factorial", "Factorial", "{C9EFA4DC-65DD-497A-8FCD-F3EFC22F60F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial.Core", "Factorial.Core\Factorial.Core.csproj", "{756E1DAF-7B59-4137-B707-B4BE763A92B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial.Core", "Factorial.Core\Factorial.Core.csproj", "{756E1DAF-7B59-4137-B707-B4BE763A92B6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial.Android", "Factorial.Android\Factorial.Android.csproj", "{9A2C3B11-7A6A-4C4B-B13C-B13DE247AD4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculator", "Calculator", "{55F388CC-C5CA-49CC-A009-00DDDBE5B0C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Core", "Calculator.Core\Calculator.Core.csproj", "{35AD4D23-5C8B-4902-8B8C-65477916DD0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Android", "Calculator.Android\Calculator.Android.csproj", "{1600BE91-3AD0-4319-8FEF-CF22C34E89E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +47,16 @@ Global
 		{9A2C3B11-7A6A-4C4B-B13C-B13DE247AD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A2C3B11-7A6A-4C4B-B13C-B13DE247AD4A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9A2C3B11-7A6A-4C4B-B13C-B13DE247AD4A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{35AD4D23-5C8B-4902-8B8C-65477916DD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AD4D23-5C8B-4902-8B8C-65477916DD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AD4D23-5C8B-4902-8B8C-65477916DD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AD4D23-5C8B-4902-8B8C-65477916DD0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1600BE91-3AD0-4319-8FEF-CF22C34E89E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1600BE91-3AD0-4319-8FEF-CF22C34E89E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1600BE91-3AD0-4319-8FEF-CF22C34E89E0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1600BE91-3AD0-4319-8FEF-CF22C34E89E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1600BE91-3AD0-4319-8FEF-CF22C34E89E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1600BE91-3AD0-4319-8FEF-CF22C34E89E0}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +66,8 @@ Global
 		{E9848B9D-87C0-4AF3-A2DD-9AF260BBDA08} = {F8C7B73D-22B4-47CE-8A46-D081AB610BCB}
 		{756E1DAF-7B59-4137-B707-B4BE763A92B6} = {C9EFA4DC-65DD-497A-8FCD-F3EFC22F60F3}
 		{9A2C3B11-7A6A-4C4B-B13C-B13DE247AD4A} = {C9EFA4DC-65DD-497A-8FCD-F3EFC22F60F3}
+		{35AD4D23-5C8B-4902-8B8C-65477916DD0A} = {55F388CC-C5CA-49CC-A009-00DDDBE5B0C8}
+		{1600BE91-3AD0-4319-8FEF-CF22C34E89E0} = {55F388CC-C5CA-49CC-A009-00DDDBE5B0C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {415B5529-BCEF-4DAF-8136-A2284288CBD3}
